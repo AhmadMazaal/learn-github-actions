@@ -1,6 +1,9 @@
 name: learn-github-actions
 
-on: [push]
+on:
+  push:
+    branhes:
+      - main
 
 jobs:
   check-bats-version:
